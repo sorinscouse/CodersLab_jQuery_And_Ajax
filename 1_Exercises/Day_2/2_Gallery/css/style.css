@@ -1,0 +1,101 @@
+body {
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 20px);
+    margin:10px;
+}
+.form {
+    padding:20px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow:0 1px 1px rgba(0,0,0,0.2);
+    display: flex;
+    margin-bottom:10px;
+}
+.form-search {
+    border:1px solid #bbb;
+    padding:15px;
+    flex-grow: 1;
+}
+.form-search-btn {
+    background: crimson;
+    border:0;
+    color:#fff;
+    margin-left:20px;
+    padding:10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.form-search-btn:hover {
+    background: #B40D2C;
+}
+.form-search-btn.loading {
+    position: relative;
+    padding-left: 45px;
+}
+.form-search-btn.loading:disabled {
+    background: #B40D2C;
+    color:crimson;
+    cursor: pointer;
+}
+.form-search-btn.loading:before {
+    content:'';
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    border:5px solid rgba(255,255,255,0.2);
+    border-right-color:#fff;
+    animation: loading 0.3s 0s infinite linear;
+}
+
+@keyframes loading {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.gallery {
+    flex-grow: 1;
+    padding:10px;
+    background: #fff;
+    padding:20px;
+    min-height: 50px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow:0 1px 1px rgba(0,0,0,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.gallery.loading:before {
+    content:'';
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    border:5px solid rgba(0,0,0,0.2);
+    border-right-color:#000;
+    animation: loading 0.3s 0s infinite linear;
+    z-index: 100;
+}
+.gallery-element {
+    position: relative;
+    z-index: 1;
+    flex-basis: calc(25% - 2px);
+    margin:1px;
+}
+.gallery-img {
+    display: block;
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}

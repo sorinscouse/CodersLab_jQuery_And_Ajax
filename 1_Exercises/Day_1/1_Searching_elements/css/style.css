@@ -1,0 +1,155 @@
+body {
+    margin:0;
+}
+.section {
+    padding: 3rem;
+    margin:2rem;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/*Other styles*/
+.menu {
+    display: flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.menu-element {
+    margin:0 5px;
+}
+.menu-element a {
+    display: block;
+    color:orangered;
+    font-weight: bold;
+    border: 2px solid orangered;
+    padding:10px 20px;
+    border-radius: 60px;
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.menu-element a:hover {
+    background: orangered;
+    color:#fff;
+}
+
+
+.main {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.main-element {
+    padding: 15px;
+    margin-bottom:2px;
+    font-family: sans-serif;
+}
+.main-element-bg {
+    border:1px solid dodgerblue;
+    background: dodgerblue;
+}
+.main-element-color {
+    color: #fff;
+}
+.main-element-color a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+}
+.links-element {
+    margin:1px;
+    padding: 20px 30px;
+    background: #D499B9;
+    color:#fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 1px;
+}
+.links-element-first {
+    padding-left:40px;
+    border-radius: 30px 0 0 30px;
+}
+.links-element-last {
+    padding-right:40px;
+    border-radius: 0 30px 30px 0;
+}
+.links-element-active {
+    font-weight: bold;
+    background: linear-gradient(#FA4358, #E71D36);
+    box-shadow: 0 2px 10px rgba(231,29,54, 0.3);
+}
+
+.shape {
+    display: inline-block;
+    margin: 3px;
+}
+.shape-square {
+    background: orange;
+    width: 100px;
+    height: 100px;
+}
+.shape-circle {
+    border-radius: 50%;
+    background: yellowgreen;
+    width: 100px;
+    height: 100px;
+}
+.shape-star {
+    background: red;
+    width: 100px;
+    height: 100px;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+.counter {
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.counter li {
+    border:1px solid #aaa;
+    padding: 20px;
+    margin-bottom: 4px;
+}
+
+.magic-link {
+    font-size:2rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.form {}
+.form-row {
+    margin-bottom:20px;
+}
+.form-label {
+    display: block;
+    font-family: sans-serif;
+    margin-bottom:10px;
+}
+.form-control {
+    padding:15px;
+    width:600px;
+    border-radius: 3px;
+    border:1px solid #aaa;
+}
+.form-button {
+    background: orangered;
+    color: #fff;
+    border:0;
+    padding:20px 40px;
+    border-radius: 4px;
+}

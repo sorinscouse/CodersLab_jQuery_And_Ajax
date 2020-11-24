@@ -1,0 +1,19 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Joe Black",
+      "description": "Death wants to know life"
+    },
+    {
+      "id": 2,
+      "title": "KungFu Panda",
+      "description": "The story of Po"
+    },
+    {
+      "id": 3,
+      "title": "The Hobbit: An Unexpected Journey",
+      "description": "Bilbo Baggins joins the dwarf company"
+    }
+  ]
+}

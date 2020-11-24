@@ -1,0 +1,16 @@
+.tabs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tabs li {
+    display: inline-block;
+}
+
+.tabs .selected {
+    background-color: aquamarine;
+}
+
+.tabs div {
+    display: none;
+}

@@ -1,0 +1,28 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+    padding: 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.list-title {
+    font-weight: normal;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.list {
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 20px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}

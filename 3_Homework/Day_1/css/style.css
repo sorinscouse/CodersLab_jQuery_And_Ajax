@@ -1,0 +1,33 @@
+.panel {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid pink;
+}
+
+img {
+  position: relative;
+}
+
+#userPanel  {
+  margin-top:50px;
+  background-color: #dedede;
+}
+
+#userPanel span{
+   display: inline-block;
+   background-color: pink;
+   padding: 3px 2px;
+   margin: 5px;
+}
+
+
+
+.gallery img {
+  width: 100px;
+}
+
+.gallery li {
+    display: inline-block;
+    width: 100px;
+}
